@@ -1,57 +1,170 @@
-How to Run Locally
-Prerequisites: you'll need to have Git, Node, and NPM installed and running on your machine.
-Open terminal/powershell/command prompt/
-Install dependencies
-npm install
-npm install -g npm-run-all
-npm install -g concurrently
+# 💪 **GraceFit Tracker** - AI-Powered Fitness Web Application 🏋️‍♀️
+
+Welcome to **GraceFit Tracker**, the ultimate AI-powered fitness companion that helps you achieve your health goals with precision and creativity! 🏅
+
+GraceFit brings you cutting-edge technologies like **real-time pose detection**, **AI-driven workout plans**, and **form corrections** to enhance your fitness journey like never before. It’s more than just a fitness app—it's your **personal trainer** and **workout buddy** combined! 🎯
+
+![image alt](https://github.com/Tushar4140/The_GraceFit_Tracker/blob/main/Screenshot%202024-12-24%20171223.png?raw=true)
+---
+
+## 🌟 **Project Overview** 💥
+
+GraceFit Tracker is an innovative web application designed to offer:
+
+- 🧠 **AI-Powered Workout Plans**: Tailored workout routines based on user data.
+- 🔄 **Real-Time Pose Detection**: Uses **MoveNet** to monitor your form and ensure accurate repetitions.
+- 🎤 **Voice Guidance & Feedback**: Real-time correction to help you stay on track.
+- 📊 **Progress Tracking**: Keep tabs on your improvements with detailed workout logs.
+- 📅 **Exercise Categorization & Rep Counting**: Automatic exercise recognition and rep counting.
+
+---
+
+## 🚀 **Key Features** ⚡
+
+### 💡 **AI-Powered Workout Plans** 🏋️‍♂️
+- **Personalize your workouts** using AI-powered recommendations based on your profile (height, weight, fitness goals).
+- Integrates **OpenAI GPT** & **Google’s PaLM API** for creating the best possible routines.
+
+### 📹 **Real-Time Exercise Monitoring** 👀
+- **MoveNet** tracks your body’s key points to ensure proper form and counts your reps accurately.
+- Provides **voice guidance** to correct form while exercising.
+
+### 🏆 **Progress Tracking** 📈
+- Record, track, and analyze your workout performance over time.
+- Visualize your progress and stay motivated!
+
+### 🔒 **Privacy-Conscious Design** 🔐
+- Your data is **secure and private**, focusing on transparency and user privacy.
+
+---
+
+## ⚙️ **Installation Guide** 🛠️
+
+### 🖥 **Frontend Setup (Next.js)**
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/yourusername/gracefit-tracker.git
+    cd gracefit-tracker
+    ```
+
+2. **Install Dependencies**:
+    ```bash
+    npm install
+    ```
+
+3. **Start the development server**:
+    ```bash
+    npm run dev
+    ```
+
+🌐 **The app will be available at**: [http://localhost:3000](http://localhost:3000)
+
+---
+
+### ⚙️ **Backend Setup (Node.js & Express.js)**
+
+1. **Clone the repository** and navigate to the backend folder:
+    ```bash
+    git clone https://github.com/yourusername/gracefit-tracker.git
+    cd gracefit-tracker-backend
+    ```
+
+2. **Install Dependencies**:
+    ```bash
+    npm install
+    ```
+
+3. **Run the backend server**:
+    ```bash
+    npm start
+    ```
+
+🌐 **Backend will be running at**: [http://localhost:8080](http://localhost:8080)
+
+---
+
+### 🗄️ **Database Setup (MySQL)**
+
+1. **Create the database**:
+    ```sql
+    CREATE DATABASE gracefit_tracker;
+    ```
+
+2. **Ensure the database credentials** match those in your backend’s configuration.
+
+---
+
+## 💡 **How It Works** 🧠
+
+### 1️⃣ **User Profile Setup** 📝
+Users input their details (age, weight, height, fitness goals), allowing AI models to generate personalized workouts.
+
+### 2️⃣ **Workout Plan Generation** 📅
+The **Personalize Workout Generator** uses **OpenAI GPT** and **Google’s TextServiceClient** to create a custom workout plan suited to your goals.
+
+### 3️⃣ **Real-Time Pose Detection** 🏃‍♀️
+- **MoveNet** tracks 17 body points, ensuring proper form during each exercise.
+- **Rep counting** and **form correction** through real-time feedback.
+
+### 4️⃣ **Progress Tracking & Feedback** 📈
+Track your progress with **historical workout data**, **set/reps logs**, and **PDF downloads** for offline access.
+
+![image alt](https://github.com/Tushar4140/The_GraceFit_Tracker/blob/main/WhatsApp%20Image%202024-12-24%20at%2017.15.47_e24c3775.jpg?raw=true)
+---
+
+## 📊 **Technologies Used** 💻
+
+| **Frontend**      | **Backend**               | **AI & ML**       | **Database**       |
+|-------------------|---------------------------|-------------------|--------------------|
+| **Next.js**       | **Node.js**               | **MoveNet**       | **MySQL**          |
+| **Tailwind CSS**  | **Express.js**            | **OpenAI GPT**    | **Hibernate ORM**  |
+| **JavaScript**    |                           | **Google PaLM API** |                    |
+
+---
+
+## 🏆 **Features Breakdown** 🔥
+
+### **Personalized Workout Generator** 🏋️‍♂️
+- Customizes workouts based on:
+  - **Height, weight, and fitness level**
+  - **Goals** (weight loss, strength, endurance)
+  - **Machine learning recommendations** for optimal results.
+
+![image alt](https://github.com/Tushar4140/The_GraceFit_Tracker/blob/main/WhatsApp%20Image%202024-12-24%20at%2017.16.25_5160bc18.jpg?raw=true)
+
+![image alt](https://github.com/Tushar4140/The_GraceFit_Tracker/blob/main/WhatsApp%20Image%202024-12-24%20at%2017.17.01_4f6f3498.jpg?raw=true)
 
 
-Steps to Run GraceFit tracker 
-Install dependencies
-npm install
-Once the installation is done, you can run the app locally
-go to this start the project this directory Example :- PS D:\THE GYM GRACE TRACKER\
-npm run start-dev
-Then open http://localhost:8080 to see your app.
+### **Voice Guidance** 🎧
+- Real-time feedback to guide your form during exercises.
+- Provides motivational tips and form corrections.
 
+### **Exercise Visualization** 🎥
+- Visual representation of exercises to guide you step-by-step.
 
-Steps to run Personalize Workout Generator 
-Run npm install to install all the dependencies
-Create a .env.local from env-example file: cp env-example .env.local
-Update the OpenAI key and Google PaLM API key in the .env.local file
-go to this start the project this directory Example :- PS D:\THE GYM GRACE TRACKER\Personalize Workout Generator>
-type in this in terminall Run npm run dev
+---
 
+## 🌱 **Future Enhancements** 🌟
 
-Once the installation is done, you can run the app locally
-write this command in your Vs code terminal
-npm run start-both
-npm run start-dev
-npm run dev
+- **Advanced AI Integration**: Smarter workout suggestions based on progress.
+- **Role-Based User Authentication**: Provide different levels of access (admin, user, trainer).
+- **Integration with Wearables**: Sync with fitness bands and smartwatches.
+- **Mobile App Expansion**: Making the experience even more portable and accessible.
 
+---
 
-Note:- You should open the Directory or  any folder of Gym Grace Tracker run this command npm run start-dev 
-to new terminal 
+## 📜 **License** 📄
 
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.
 
+---
 
+## 📬 **Contact Us** 📨
 
-Install Node.js:
-Make sure you have Node.js installed on your system. You can download it from the official website: Node.js Downloads.
+For questions, suggestions, or collaboration inquiries, reach out to us:
 
-Verify Installation:
-After installing Node.js, open a new command prompt or PowerShell window and type the following commands to check if Node.js and npm are installed:
+- **Author 1**: [tp99011@Gmail.com](mailto:your-email@example.com)
+- **Author 2**: [naikgayatri286@gmail.com](mailto:your-email@example.com)
+---
 
-Copy code
-node -v
-npm -v
-
-These commands should print the installed versions of Node.js and npm. If not, there might be an issue with the installation.
-Update System PATH:
-Ensure that the directory containing the npm executable is included in your system's PATH environment variable. The npm executable is usually located in the same directory as Node.js.
-
-Restart PowerShell:
-After making changes to the system PATH, close and reopen the PowerShell window to apply the changes.
-
-If you still encounter issues, please check the installation paths and ensure that Node.js and npm are installed correctly. If the problem persists, feel free to provide additional information for further assistance.
