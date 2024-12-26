@@ -110,7 +110,7 @@ The **Personalize Workout Generator** uses **OpenAI GPT** and **Google’s TextS
 ### 4️⃣ **Progress Tracking & Feedback** 📈
 Track your progress with **historical workout data**, **set/reps logs**, and **PDF downloads** for offline access.
 
-![image alt][(https://github.com/Tushar4140/The_GraceFit_Tracker/blob/main/WhatsApp%20Image%202024-12-24%20at%2017.15.47_e24c3775.jpg?raw=true](https://github.com/Tushar4140/The_GraceFit_Tracker/blob/main/working.jpg?raw=true))
+![image alt](https://github.com/Tushar4140/The_GraceFit_Tracker/blob/main/working.jpg?raw=true)
 ---
 
 ## 📊 **Technologies Used** 💻
