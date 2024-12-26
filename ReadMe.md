@@ -4,7 +4,7 @@ Welcome to **GraceFit Tracker**, the ultimate AI-powered fitness companion that 
 
 GraceFit brings you cutting-edge technologies like **real-time pose detection**, **AI-driven workout plans**, and **form corrections** to enhance your fitness journey like never before. It’s more than just a fitness app—it's your **personal trainer** and **workout buddy** combined! 🎯
 
-![image alt](https://github.com/Tushar4140/The_GraceFit_Tracker/blob/main/Screenshot%202024-12-24%20171223.png?raw=true)
+![image alt](https://github.com/Tushar4140/The_GraceFit_Tracker/blob/main/home.png?raw=true)
 ---
 
 ## 🌟 **Project Overview** 💥
@@ -110,7 +110,7 @@ The **Personalize Workout Generator** uses **OpenAI GPT** and **Google’s TextS
 ### 4️⃣ **Progress Tracking & Feedback** 📈
 Track your progress with **historical workout data**, **set/reps logs**, and **PDF downloads** for offline access.
 
-![image alt](https://github.com/Tushar4140/The_GraceFit_Tracker/blob/main/WhatsApp%20Image%202024-12-24%20at%2017.15.47_e24c3775.jpg?raw=true)
+![image alt][(https://github.com/Tushar4140/The_GraceFit_Tracker/blob/main/WhatsApp%20Image%202024-12-24%20at%2017.15.47_e24c3775.jpg?raw=true](https://github.com/Tushar4140/The_GraceFit_Tracker/blob/main/working.jpg?raw=true))
 ---
 
 ## 📊 **Technologies Used** 💻
@@ -131,9 +131,9 @@ Track your progress with **historical workout data**, **set/reps logs**, and **P
   - **Goals** (weight loss, strength, endurance)
   - **Machine learning recommendations** for optimal results.
 
-![image alt](https://github.com/Tushar4140/The_GraceFit_Tracker/blob/main/WhatsApp%20Image%202024-12-24%20at%2017.16.25_5160bc18.jpg?raw=true)
+![image alt](https://github.com/Tushar4140/The_GraceFit_Tracker/blob/main/personalize_Home.jpg?raw=true)
 
-![image alt](https://github.com/Tushar4140/The_GraceFit_Tracker/blob/main/WhatsApp%20Image%202024-12-24%20at%2017.17.01_4f6f3498.jpg?raw=true)
+![image alt](https://github.com/Tushar4140/The_GraceFit_Tracker/blob/main/Personalized%20Workout%20Generator.jpg?raw=true)
 
 
 ### **Voice Guidance** 🎧
